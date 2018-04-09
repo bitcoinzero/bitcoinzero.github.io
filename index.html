@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Bitcoin Zero - BCZ</title>
+    <title class="i18n-text" data-i18n="bitcoin-zero-title">Bitcoin Zero - BCZ</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="static/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
     <link href="static/css/themify-icons.css" rel="stylesheet" type="text/css" media="all" />
@@ -34,26 +34,26 @@
                 <div class="module left">
                     <!-- Menu start -->
                     <ul class="menu">
-                        <li> <a href="index.html"> Home</a>
+                        <li> <a class="i18n-text" href="index.html" data-i18n="home"> Home</a>
                         </li>
-                        <li> <a href="#about"> About</a>
+                        <li> <a class="i18n-text" href="#about" data-i18n="about"> About</a>
                         </li>
                         <!-- Get started start -->
                         <li class="has-dropdown">
-                            <a href="#getstarted">Get Started</a>
+                            <a class="i18n-text" href="#getstarted" data-i18n="get-started">Get Started</a>
                             <!-- Mega menu start -->
                             <ul class="mega-menu">
                                 <!-- Wallets -->
                                 <li>
                                     <ul>
                                         <li>
-                                            <span class="title">Wallets</span>
+                                            <span class="title i18n-text" data-i18n="wallets">Wallets</span>
                                         </li>
                                         <li>
-                                            <a href="#getstarted"><i class="ti-linux"></i> Linux</a>
+                                            <a class="i18n-text" href="#getstarted" data-i18n="linux"><i class="ti-linux"></i> Linux</a>
                                         </li>
                                         <li>
-                                            <a href="#getstarted"><i class="ti-microsoft"></i> Windows</a>
+                                            <a class="i18n-text" href="#getstarted" data-i18n="windows"><i class="ti-microsoft"></i> Windows</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -62,13 +62,13 @@
                                 <li>
                                     <ul>
                                         <li>
-                                            <span class="title">Tools</span>
+                                            <span class="title i18n-text" data-i18n="tools">Tools</span>
                                         </li>
                                         <li>
-                                            <a class="title" href="#tools">Exchanges</a>
+                                            <a class="title i18n-text" href="#tools" data-i18n="exchanges">Exchanges</a>
                                         </li>
                                         <li>
-                                            <a class="title" href="#tools">Explorer</a>
+                                            <a class="title i18n-text" href="#tools" data-i18n="explorer">Explorer</a>
                                         </li>
                                     </ul>
                                 </li>
@@ -79,19 +79,19 @@
                         <!-- Get started end -->
                         <!-- Forums start -->
                         <li class="has-dropdown">
-                            <a href="#">
+                            <a class="i18n-text" href="#" data-i18n="forum">
                                 Forum
                             </a>
                             <ul>
                                 <li>
-                                    <a href="https://bitcointalk.org/index.php?topic=2446651.0" target="_blank">Bitcoin Talk</a>
+                                    <a class="i18n-text" href="https://bitcointalk.org/index.php?topic=2446651.0" target="_blank" data-i18n="bitcoin-talk">Bitcoin Talk</a>
                                 </li>
                             </ul>
                         </li>
                         <!-- Forums end -->
                         <!-- Explorers -->
                         <li class="has-dropdown">
-                            <a href="#">Explorer</a>
+                            <a class="i18n-text" href="#" data-i18n="explorer">Explorer</a>
                             <ul>
                                 <li>
                                     <a href="http://www.bitcoinzero.info" target="_blank">www.bitcoinzero.info</a>
@@ -102,6 +102,25 @@
                     </ul>
                     <!-- Menu end -->
                 </div>
+                <!-- Languages  Removed until we actually have extra languages-->
+                <div class="module widget-handle language left">
+                        <ul class="menu">
+                             <li class="has-dropdown">
+                                    <a class="i18n-text" href="#" data-i18n="languages">Languages</a>
+                                    <ul>
+                                         <li>
+                                                <a href="javascript:void(0);" class="lang-settings" data-lang="en">English</a>
+                                         </li>
+                                         <li>
+                                                <a href="javascript:void(0);" class="lang-settings" data-lang="zh_hans">中文简体</a>
+                                         </li>
+                                         <li>
+                                                <a href="javascript:void(0);" class="lang-settings" data-lang="zh_hant">中文繁體</a>
+                                         </li>
+                                    </ul>
+                             </li>
+                        </ul>
+                 </div>
             </div>
         </div>
     </nav>
@@ -118,8 +137,9 @@
                     <div class="row text-center">
                         <div class="col-md-10 col-md-offset-1">
                             <img alt="bitcoin zero" src="static/img/logo-white.png" class="image-large" />
-                            <h2 class="mb-xs-16"><br>Chainstate Snapshot</h2>
-                            <p class="lead mb40">
+                            <h2 class="mb-xs-16 i18n-text"><br><span class="i18n-text" data-i18n="chainstate-snapshot">Chainstate Snapshot</span>
+                            </h2>
+                            <p class="lead mb40 i18n-text" data-i18n="chainstate-snapshot-content">
                                 If you had Bitcoin at height 478558, you have that amount of BCZ now.
                             </p>
                         </div>
@@ -134,8 +154,8 @@
                     <div class="row text-center">
                         <div class="col-md-10 col-md-offset-1">
                             <i class="ti-hummer icon"></i>
-                            <h2 class="mb-xs-16"><br>Merged mining</h2>
-                            <p class="lead mb40">
+                            <h2 class="mb-xs-16"><br><span class="i18n-text" data-i18n="merged-mining">Merged mining</span></h2>
+                            <p class="lead mb40 i18n-text" data-i18n="merged-mining-content">
                                 Utilize Bitcoin's hash power ensuring PoW security.
                             </p>
                         </div>
@@ -150,9 +170,9 @@
                     <div class="row text-center">
                         <div class="col-md-10 col-md-offset-1">
                             <i class="ti-panel icon"></i>
-                            <h2 class="mb-xs-16"><br>Cutting-edge cryptography</h2>
-                            <p class="lead mb40">
-                                Provide most updated zkSNARKs technology.
+                            <h2 class="mb-xs-16"><br><span class="i18n-text" data-i18n="cutting-edge-cryptography">Cutting-edge cryptography</span></h2>
+                            <p class="lead mb40 i18n-text" data-i18n="cutting-edge-cryptography-content">
+                                Provide the most updated zkSNARKs technology.
                             </p>
                         </div>
                     </div>
@@ -166,8 +186,8 @@
                     <div class="row text-center">
                         <div class="col-md-10 col-md-offset-1">
                             <i class="ti-stats-up icon"></i>
-                            <h2 class="mb-xs-16"><br>Honor Zcash founder rewards</h2>
-                            <p class="lead mb40">
+                            <h2 class="mb-xs-16"><br><span class="i18n-text" data-i18n="honor-zcash-founder-rewards">Honor Zcash founder rewards</span></h2>
+                            <p class="lead mb40 i18n-text" data-i18n="honor-zcash-founder-rewards-content">
                                 All founder rewards go to Zcash team.
                             </p>
                         </div>
@@ -180,7 +200,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 text-center" style="padding-top: 60px;">
-                    <a class="btn btn-lg btn-filled" href="static/pdfs/whitepaper.pdf" download>Whitepaper</a>
+                    <a class="btn btn-lg btn-filled i18n-text" data-i18n="whitepaper" href="static/pdfs/whitepaper.pdf" download>Whitepaper</a>
                 </div>
             </div>
         </div>
@@ -189,10 +209,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-right text-left-xs col-sm-12">
-                    <h2 class="uppercase mb24 bold italic text-center">Bitcoin Zero</h2>
+                    <h2 class="uppercase mb24 bold italic text-center i18n-text" data-i18n="bitcoin-zero">Bitcoin Zero</h2>
                 </div>
                 <div class="col-md-12 col-sm-12">
-                    <p>
+                    <p class="i18n-text" data-i18n="bitcoin-zero-summary">
                         In short, Bitcoin Zero is designed to bring zk-SNARK (Zero-Knowledge Suc-
                         cinct Non-Interactive Argument of Knowledge) back to Bitcoin. The journey
                         of ’zero’ started from zerocoin (Miers et al., 2013) a cryptographic extension to
@@ -215,7 +235,7 @@
             <div class="row">
                 <div class="col-sm-12 text-center" style="padding-top: 60px;">
     
-                    <a class="btn btn-lg btn-filled" href="static/pdfs/BCZ_quick_start.pdf" download>Quick Start</a>
+                    <a class="btn btn-lg btn-filled i18n-text" data-i18n="quick-start" href="static/pdfs/BCZ_quick_start.pdf" download>Quick Start</a>
                 </div>
             </div>
         </div>
@@ -224,7 +244,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 text-center">
-                    <h4 class="uppercase mb80">Get started</h4>
+                    <h4 class="uppercase mb80 i18n-text" data-i18n="get-started">Get started</h4>
                 </div>
             </div>
             <div class="row">
@@ -232,7 +252,7 @@
                     <div class="image-tile outer-title text-center">
                         <i class="fa fa-file-text fa-5x" aria-hidden="true"></i>
                         <div class="title mb16">
-                            <h5 class="uppercase mb0"><br>Full Node</h5>
+                            <h5 class="uppercase mb0"><br><span class="i18n-text" data-i18n="full-node">Full Node</span></h5>
                             <span></span>
                         </div>
                         <div class="content text-center col-sm-12 col-md-12">
@@ -244,7 +264,7 @@
                     <div class="image-tile outer-title text-center">
                         <i class="fa fa-file-text fa-5x" aria-hidden="true"></i>
                         <div class="title mb16">
-                            <h5 class="uppercase mb0"><br>Full-Node Wallet</h5>
+                            <h5 class="uppercase mb0"><br><span class="i18n-text" data-i18n="full-node-wallet">Full-Node Wallet</span></h5>
                             <span></span>
                         </div>
                         <div class="content text-center col-sm-12 col-md-12">
@@ -256,11 +276,11 @@
                     <div class="image-tile outer-title text-center">
                         <i class="fa fa-file-text fa-5x" aria-hidden="true"></i>
                         <div class="title mb16">
-                            <h5 class="uppercase mb0"><br>virtual machine appliance (.ova)</h5>
+                            <h5 class="uppercase mb0"><br><span class="i18n-text" data-i18n="virtual-machine-appliance">virtual machine appliance (.ova)</span></h5>
                             <span></span>
                         </div>
                         <div class="content text-center col-sm-12 col-md-12">
-                            <a target="_self" class="btn btn-lg col-sm-offset-1 col-sm-10 col-md-10 col-md-offset-1" style="border-radius: 100px;" href="static/torrents/BCZ_ubuntu.torrent">torrent</a>
+                            <a target="_self" class="btn btn-lg col-sm-offset-1 col-sm-10 col-md-10 col-md-offset-1 i18n-text" data-i18n="torrent" style="border-radius: 100px;" href="static/torrents/BCZ_ubuntu.torrent">torrent</a>
                         </div>
                     </div>
                 </div>
@@ -268,11 +288,11 @@
                     <div class="image-tile outer-title text-center">
                         <i class="fa fa-file-text fa-5x" aria-hidden="true"></i>
                         <div class="title mb16">
-                            <h5 class="uppercase mb0"><br>virtual machine appliance (.ova)</h5>
+                            <h5 class="uppercase mb0"><br><span class="i18n-text" data-i18n="virtual-machine-appliance">virtual machine appliance (.ova)</span></h5>
                             <span></span>
                         </div>
                         <div class="content text-center col-sm-12 col-md-12">
-                            <a target="_blank" class="btn btn-lg col-sm-offset-1 col-sm-10 col-md-10 col-md-offset-1" style="border-radius: 100px;" href="#">baidu pan</a>
+                            <a target="_blank" class="btn btn-lg col-sm-offset-1 col-sm-10 col-md-10 col-md-offset-1 i18n-text" data-i18n="baidu-pan" style="border-radius: 100px;" href="#" disabled="disabled">baidu pan</a>
                         </div>
                     </div>
                 </div>
@@ -284,7 +304,7 @@
                     <ul class="accordion accordion-1">
                         <li class="active">
                             <div class="title">
-                                <span>Exchanges</span>
+                                <span class="i18n-text" data-i18n="exchanges">Exchanges</span>
                             </div>
                             <div class="content text-center">
                                 <p>
@@ -298,7 +318,7 @@
                         </li>
                         <li class="active">
                             <div class="title">
-                                <span>Block explorers</span>
+                                <span class="i18n-text" data-i18n="block-explorers">Block explorers</span>
                             </div>
                             <div class="content text-center">
                                 <p>
@@ -316,11 +336,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 text-center">
-                    <h2 class="mb8">Participate in the development</h2>
-                    <p class="lead mb40">
+                    <h2 class="mb8 i18n-text" data-i18n="participate-development">Participate in the development</h2>
+                    <p class="lead mb40 i18n-text" data-i18n="join-development-community">
                         Join the development community
                     </p>
-                    <a class="btn btn-filled btn-lg mb0" href="https://github.com/bitcoinzero/bitcoinzero" target="_blank">Participate</a>
+                    <a class="btn btn-filled btn-lg mb0 i18n-text" data-i18n="participate" href="https://github.com/bitcoinzero/bitcoinzero" target="_blank">Participate</a>
                 </div>
             </div>
             <div class="embelish-icons">
@@ -347,7 +367,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="widget">
-                        <h6 class="title">Links</h6>
+                        <h6 class="title i18n-text" data-i18n="links">Links</h6>
                         <hr>
                         <ul class="link-list">
                             <li>
@@ -360,7 +380,7 @@
                                 <a href="https://bitcointalk.org/index.php?topic=2446651.0" target="_blank">bitcointalk.org/BitcoinZero</a>
                             </li>
                             <li>
-                                <a href="https://www.bitegg.io/transaction.html?id=10014" target="_blank"bitegg.io/BitcoinZero</a>
+                                <a href="https://www.bitegg.io/transaction.html?id=10014" target="_blank">bitegg.io/BitcoinZero</a>
                             </li>
                     </div>
                 </div>
@@ -371,10 +391,11 @@
                 </div>
             </div>
         </div>
-        <a class="btn btn-sm fade-half back-to-top inner-link" href="#top">Top</a>
+        <a class="btn btn-sm fade-half back-to-top inner-link i18n-text" data-i18n="top" href="#top">Top</a>
     </footer>
 </div>
 <script src="static/js/jquery.min.js"></script>
+<script src="static/js/jquery.cookie.js"></script>
 <script src="static/js/bootstrap.min.js"></script>
 <script src="static/js/flexslider.min.js"></script>
 <script src="static/js/lightbox.min.js"></script>
@@ -382,5 +403,33 @@
 <script src="static/js/smooth-scroll.min.js"></script>
 <script src="static/js/parallax.js"></script>
 <script src="static/js/scripts.js"></script>
+<script src="static/js/jquery.i18n.js"></script>
+<script src="static/js/jquery.i18n.messagestore.js"></script>
+<script type="text/javascript">
+    $.i18n.debug = true;
+    var updateText = function (lang) {
+        var i18n = $.i18n();
+        i18n.locale = lang;
+        i18n.load( 'static/js/i18n/' + i18n.locale + '.json', i18n.locale ).done(
+            function(){
+                $.cookie('_language', i18n.locale, { expires: 7 });
+                $('.i18n-text').i18n();
+            }
+        )
+    }
+    $( document ).ready( function ( $ ) {
+        $('.lang-settings').click(function(){
+                updateText($(this).attr("data-lang"));
+        });
+        var language = $.cookie("_language");
+        if (!language) {
+            language = 'en';
+        }
+        updateText(language);
+    });
+/*    $('.i18n-text').each(function(index, obj){
+            console.log($(this).attr("data-i18n"));
+    });*/
+</script>
 </body>
 </html>
